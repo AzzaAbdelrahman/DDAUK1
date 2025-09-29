@@ -1,0 +1,181 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Banner */
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: url("./images/bcimage.png.png") center/cover no-repeat;
+  position: relative;
+}
+
+.logo {
+  width: 60px;
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.content h2 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+/* About */
+.about_section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about_section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Mission */
+.mission_background {
+  background-color: #f4f4f4;
+}
+
+.container_subheader {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.card-img-top {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 20px auto 0;
+  border-radius: 50%;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #003366;
+}
+
+/* Values */
+.values_section {
+  background-color: #08082b;
+}
+
+.values_section_h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.values_section_list li {
+  font-size: 1.1rem;
+  padding: 8px 0;
+}
+
+/* Gallery */
+.gallery {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.column1 {
+  flex: 1 1 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.column1 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #eb3554;
+  padding: 5px;
+}
+
+/* Contact */
+.contact_us_form {
+  background-color: #fff;
+}
+
+.contact_form_h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #08082b;
+}
+
+.contact_form_p1 {
+  color: #08082b;
+  font-size: 1.1rem;
+}
+
+.contact_icon {
+  font-size: 1.5rem;
+  color: #08082b;
+}
+
+.contact_form .form-label {
+  font-weight: bold;
+  color: #08082b;
+}
+
+.contact_form .form-control {
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.contact_form .form-control:focus {
+  border-color: #003366;
+  box-shadow: 0 0 5px rgba(0, 51, 102, 0.3);
+}
+
+.contact_form button {
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* Footer */
+.footer {
+  background-color: #08082b;
+  font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 2rem;
+  }
+  .content h2 {
+    font-size: 1.2rem;
+  }
+  .about_section h2,
+  .container_subheader,
+  .values_section_h2 {
+    font-size: 1.8rem;
+  }
+}
