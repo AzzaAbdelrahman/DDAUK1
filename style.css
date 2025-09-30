@@ -10,8 +10,16 @@
 .banner {
   width: 100%;
   height: 100vh;
-  background: url("./images/bcimage.png.png") center/cover no-repeat;
+  background: url("./images/bgimage.png.png") center/cover no-repeat;
   position: relative;
+  background-position: center; /* default for desktop */
+}
+
+/* Mobile-specific background adjustment */
+@media (max-width: 768px) {
+  .banner {
+    background-position: right center; /* shift image more to the right */
+  }
 }
 
 .logo {
@@ -179,3 +187,4 @@
     font-size: 1.8rem;
   }
 }
+
