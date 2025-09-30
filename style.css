@@ -12,7 +12,7 @@
   height: 100vh;
   background: url("./images/bgimge.png") center/cover no-repeat;
   position: relative;
-  background-position: center; /* default for desktop */
+  background-position: center; /*
 }
 
 .logo {
@@ -180,6 +180,7 @@
     font-size: 1.8rem;
   }
 }
+
 
 
 
